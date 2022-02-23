@@ -42,7 +42,7 @@ class Main extends PluginBase implements Listener{
         if($this->getServer()->getPluginManager()->getPlugin("EconomyAPI")) {
                  $this->getLogger()->info("§l§aEconomyAPI wurde Gefunden!");
             }else{
-            $this->getLogger()->critical("§l§cYou have to install EconomyAPI anyways it doesent work if you have an other Money Plugin Contact ME!!!!!");
+            $this->getLogger()->critical("§l§cYou have to install §eEconomyAPI §canyways it doesent work if you have an other Money Plugin Contact ME!!!!!");
             $this->getServer()->getPluginManager()->disablePlugin("§l§eInstallieren sie EconomyAPI");
         }
     }
