@@ -1,0 +1,14 @@
+name: ChatGames-LBWBDev
+main: LBWB\chatgames\Main
+version: 1.0.0
+api: 4.0.0
+author: LBWBDeveloper
+
+commands:
+  chatgame:
+    description: "opens a chatgame ui"
+    permission: chatgame.cmd
+
+permissions:
+  chatgame.cmd:
+    default: OP

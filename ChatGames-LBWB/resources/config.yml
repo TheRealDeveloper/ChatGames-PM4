@@ -1,0 +1,15 @@
+##Please Check out my YouTube : LBWBDeveloper or Our Server System : herror.de
+##PLEASE USE ECONOMYAPI! ANYWAYS YOUR SERVER WILL CRASH!!!
+##CreateChatGame permission: chatgames.cmd
+
+NewQuestion: "§cChat§eGames§7 | a new Question has created!"
+
+
+
+
+
+##FORM UI
+FormTitleName: "YourCustomFormTitle"
+Rules: "§cChat§eGames §rRegules: n§4Write all lowercase, n§4No spacing or other characters!n §cPlease enter a correct game name!"
+min-reward: "1" ##IF YOU DONT KNOW ABOT WHAT THIS MEANS DONT TOUCH THIS!!!!!!
+max-reward: "10000" ##IF YOU DONT KNOW ABOT WHAT THIS MEANS DONT TOUCH THIS!!!!!!
