@@ -40,7 +40,7 @@ class Main extends PluginBase implements Listener{
         $this->saveResource("config.yml");
         $this->cfg = new Config($this->getDataFolder() . "config.yml", Config::YAML);
         if($this->getServer()->getPluginManager()->getPlugin("EconomyAPI")) {
-                 $this->getLogger()->info("§l§aEconomyAPI wurde Gefunden!");
+                 $this->getLogger()->info("§l§aEconomyAPI was Found!");
             }else{
             $this->getLogger()->critical("§l§cYou have to install §eEconomyAPI §canyways it doesent work if you have an other Money Plugin Contact ME!!!!!");
             $this->getServer()->getPluginManager()->disablePlugin("§l§eInstallieren sie EconomyAPI");
@@ -75,13 +75,12 @@ class Main extends PluginBase implements Listener{
                 $this->preis["reward"] = "$data[4]";
                 $this->question = "$data[2]";
                 $this->correct = "$data[3]";
-                $this->getServer()->broadcastMessage("§7§lBy LBWBDev, AD: herror.eu, all is selfmade");
+                $this->getServer()>->broadcastMessage("§a--- §eChat§cGames§a ---");
                 $this->getServer()->broadcastMessage($this->cfg->get("NewQuestion"));
                 $this->getServer()->broadcastMessage("§cChat§eGames§7 | §r" . $data[2]);
 
         });
         $form->setTitle($this->cfg->get("FormTitleName"));
-        $form->addLabel("§cYou can create here Own Chat Games §aPlugin Made By LBWBDeveloper Join Herror.eu");
         $form->addLabel($this->cfg->get("Rules"));
         $form->addInput("Your Question for the players", "like: Whats my age?");
         $form->addInput("Solution response", "like: 14");
