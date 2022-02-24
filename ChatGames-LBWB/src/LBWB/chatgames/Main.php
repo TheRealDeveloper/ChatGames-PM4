@@ -75,7 +75,7 @@ class Main extends PluginBase implements Listener{
                 $this->preis["reward"] = "$data[4]";
                 $this->question = "$data[2]";
                 $this->correct = "$data[3]";
-                $this->getServer()>->broadcastMessage("§a--- §eChat§cGames§a ---");
+                $this->getServer()->broadcastMessage("§a--- §eChat§cGames§a ---");
                 $this->getServer()->broadcastMessage($this->cfg->get("NewQuestion"));
                 $this->getServer()->broadcastMessage("§cChat§eGames§7 | §r" . $data[2]);
 
