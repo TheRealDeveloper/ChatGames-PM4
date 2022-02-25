@@ -71,13 +71,13 @@ class Main extends PluginBase implements Listener{
             }
                 $p = $player->getName();
                 $this->hoster = "$p";
-                $this->rungame["game"] = "$data[3]";
-                $this->preis["reward"] = "$data[4]";
-                $this->question = "$data[2]";
-                $this->correct = "$data[3]";
+                $this->rungame["game"] = "$data[1]";
+                $this->preis["reward"] = "$data[3]";
+                $this->question = "$data[1]";
+                $this->correct = "$data[2]";
                 $this->getServer()->broadcastMessage("§a--- §eChat§cGames§a ---");
                 $this->getServer()->broadcastMessage($this->cfg->get("NewQuestion"));
-                $this->getServer()->broadcastMessage("§cChat§eGames§7 | §r" . $data[2]);
+                $this->getServer()->broadcastMessage("§cChat§eGames§7 | §r" . $data[1]);
 
         });
         $form->setTitle($this->cfg->get("FormTitleName"));
