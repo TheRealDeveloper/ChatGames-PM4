@@ -71,7 +71,7 @@ class Main extends PluginBase implements Listener{
             }
                 $p = $player->getName();
                 $this->hoster = "$p";
-                $this->rungame["game"] = "$data[1]";
+                $this->rungame["game"] = "$data[2]";
                 $this->preis["reward"] = "$data[3]";
                 $this->question = "$data[1]";
                 $this->correct = "$data[2]";
