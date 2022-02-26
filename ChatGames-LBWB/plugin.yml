@@ -6,7 +6,7 @@ author: LBWBDeveloper
 
 commands:
   chatgame:
-    description: "opens a chatgame ui"
+    description: "Create a ChatGame"
     permission: chatgame.cmd
 
 permissions:
