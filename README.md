@@ -17,7 +17,7 @@ ChatGames is an Plugin on [PocketMine-MP](https://github.com/pmmp/PocketMine-MP)
 2. Then add it to your Server.
 3. Then Start your Server.
 4. Then Stop your Server.
-5. Then Edit the 
+5. Then Edit the Config
 6. You're done! Start your server.
 
 ## Commands
